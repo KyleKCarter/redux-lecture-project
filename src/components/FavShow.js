@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import store, {UPDATE_FAVSHOW} from '../redux/store';
 
 export default class FavShow extends Component {
     render() {
